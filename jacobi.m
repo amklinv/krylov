@@ -60,3 +60,4 @@ end
 semilogy(0:size(rnorm,2)-1,rnorm/rnorm(1), 0:size(rnorm2,2)-1,rnorm2/rnorm2(1), 0:size(rnorm3,2)-1,rnorm3/rnorm3(1))
 xlabel('iteration')
 ylabel('relative residual')
+legend('big diag', 'medium diag', 'little diag')
